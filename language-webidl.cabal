@@ -21,7 +21,7 @@ library
   exposed-modules:     Language.WebIDL.AST
                        Language.WebIDL.Parser
                        Language.WebIDL.PPrint
-  build-depends:       base >=4.9 && <4.10, parsec, wl-pprint
+  build-depends:       base >=4.9 && <5, parsec, wl-pprint
   hs-source-dirs:      src
   default-language:    Haskell2010
   ghc-options:         -Wall -fno-warn-missing-signatures -fno-warn-orphans
@@ -30,6 +30,6 @@ test-suite language-webidl-test
   type:                exitcode-stdio-1.0
   hs-source-dirs:      test
   main-is:             Test.hs
-  build-depends:       base >=4.9 && <4.10, language-webidl, HUnit
+  build-depends:       base >=4.9 && <5, language-webidl, HUnit
   ghc-options:         -Wall
   default-language:    Haskell2010

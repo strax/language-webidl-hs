@@ -1,4 +1,7 @@
-resolver: lts-9.0
+resolver: nightly-2020-01-08
 
 packages:
 - '.'
+
+extra-deps:
+- wl-pprint-1.2.1
